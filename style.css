@@ -1,0 +1,100 @@
+html{
+  box-sizing:border-box;
+  font-family: 'karla';
+  font-size:17px;
+}
+*,*:before,*:after{
+  box-sizing:inherit;
+}
+h2,h4,p{
+  margin:0;
+}
+body{
+  padding:20px;
+}
+#card{
+  width:600px;
+  height:500px;
+  -webkit-box-shadow: 13px -4px 18px 0px rgba(0,0,0,0.75);
+  border-radius:5px;
+  overflow:hidden;
+}
+#top-section{
+  padding:20px;
+  height:40%;
+  width:100%;
+}
+#bottom-section{
+  height:60%;
+  width:100%;
+  color:white;
+
+}
+#bottom-left{
+  padding:20px;
+  display:inline-block;
+  height:100%;
+  width:50%;
+  vertical-align:top;
+  background-color:#2ab2af;
+  }
+#bottom-right{
+  padding:20px;
+  display:inline-block;
+  height:100%;
+  width:50%;
+  background-color: #2EBFBD;
+  vertical-align:top;
+}
+#top-section h2
+{
+  margin-bottom:15px;
+  color: #2ab2af;
+}
+#top-section h4
+{
+  color: orange;
+  margin-bottom:15px;
+}
+#top-section p
+{
+  
+  color: black;
+}
+button{
+  color:white;
+  background-color:orange;
+  border:none;
+  padding:10px;
+  width : 100%;
+  margin-top:55px;
+}
+button:hover{
+  cursor:pointer;
+  background-color:black;
+  transform: scale(1.1);
+}
+#price
+{
+  font-weight:700;
+}
+#bottom-left h4{
+  margin:25px;
+}
+#price, #frequency{
+  display: inline-block;
+  margin-left:25px;
+}
+#frequency{
+  position:relative;
+  top:-3px;
+  font-size:12.8px;
+  opacity:0.7;
+  margin-left:5px;
+}
+ul{
+  padding:0;
+  list-style:none;
+  opacity:0.8;
+  font-size:0.8rem;
+}
